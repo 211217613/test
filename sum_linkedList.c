@@ -60,7 +60,17 @@ void populate(node_t* head){
 	}
 }
 
+node_t* buildLL(){
 
+	node_t* head = NULL;
+	node_t* second = NULL;
+	node_t* third = NULL;
+
+	head = malloc(sizeof(node_t*)); // this will give the wrong size. 8 bits?
+	second = malloc(sizeof(node_t));
+	third = malloc(sizeof(node_t));
+
+}
 
 int main(){
 	// Create  a pointer to structs
